@@ -8,7 +8,7 @@ const HomeContainer = () => {
     <section className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full" id="home">
       <div className="flex-1 py-2 flex flex-col items-start justify-center md:items-start gap-6">
         <div className="flex items-center gap-2 justify-center bg-orange-100 px-4 py-1 rounded-full">
-          <p className="text-base text-orange-500 font-semibold">Bike Delivery</p>
+          <p className="text-base text-orange-500 font-semibold">Home Delivery</p>
           <div className="w-8 h-8 bg-white rounded-full overflow-hidden drop-shadow-xl">
             <img className="w-full h-full object-contain" src={DeliveryImg} alt="deliveryimage" />
           </div>
@@ -19,8 +19,9 @@ const HomeContainer = () => {
         </p>
 
         <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vitae quos possimus excepturi laudantium eos ipsum assumenda. Asperiores
-          quasi tempora, nemo ullam voluptas amet nisi. Fugit aliquam nulla ea consectetur.
+          We serve Chinese & fast foods. Food quality is our first priority, you can find delicious food at a very reasonable price. Most of the items
+          are Chinese, and we also serve Maggie, omelet, tea, coffee, etc. People's favorites are momos, chilly chicken, chilly paneer, chicken
+          pakora, etc. We welcome you!
         </p>
 
         <button

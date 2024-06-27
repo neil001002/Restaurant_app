@@ -8,6 +8,7 @@ import { useStateValue } from "../context/StateProvider";
 import { actionType } from "../context/reducer";
 
 import LogoImg from "../assets/logo.png";
+import FambellsLogoImg from "../assets/fambells.png";
 import AvatarImg from "../assets/avatar.png";
 
 const Header = () => {
@@ -49,8 +50,8 @@ const Header = () => {
       {/* desktop & tablet */}
       <div className="hidden md:flex w-full h-full items-center justify-between">
         <Link to={"/"} className="flex items-center gap-2">
-          <img src={LogoImg} className="w-8 object-cover" alt="logo" />
-          <p className="text-headingColor text-xl font-bold ">City</p>
+          <img src={FambellsLogoImg} className="w-8 object-cover" alt="logo" />
+          <p className="text-headingColor text-xl font-bold ">Fambells</p>
         </Link>
 
         <div className="flex items-center gap-8">
