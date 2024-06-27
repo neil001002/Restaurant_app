@@ -141,8 +141,8 @@ const Header = () => {
         </div>
 
         <Link to={"/"} className="flex items-center gap-2">
-          <img src={LogoImg} className="w-8 object-cover" alt="logo" />
-          <p className="text-headingColor text-xl font-bold ">City</p>
+          <img src={FambellsLogoImg} className="w-8 object-cover" alt="logo" />
+          <p className="text-headingColor text-xl font-bold ">Fambells</p>
         </Link>
 
         <div className="relative">
